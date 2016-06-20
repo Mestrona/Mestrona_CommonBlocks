@@ -1,0 +1,11 @@
+<?php
+/**
+ * @var $this \Mestrona\CommonBlocks\Block\StoreInformation
+ */
+?>
+<span class="store-info-phone">
+    <a href="tel:<?php echo $this->escapeHtml($this->getPhone()); ?>"><?php echo $this->escapeHtml($this->getPhone()); ?></a>
+</span>
+<span class="store-info-email">
+    <a href="mailto:<?php echo $this->escapeHtml($this->getEMail()); ?>"><?php echo $this->escapeHtml($this->getEMail()); ?></a>
+</span>
