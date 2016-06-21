@@ -8,6 +8,13 @@ Templates
  * store_information.phtml - Address and Store Hours, for example for the footer
  * store_information/contact.phtml - Phone and Email Links
 
+Planed:
+
+* System Version (and maybe Git branch)
+
+Basically, lots of more small, simple blocks should be added.
+If you miss something, file an issue or - even better - a pull request.
+
 Installation
 ------------
 
