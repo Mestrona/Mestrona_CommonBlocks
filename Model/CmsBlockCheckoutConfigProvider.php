@@ -22,6 +22,8 @@ class CmsBlockCheckoutConfigProvider implements ConfigProviderInterface
      */
     protected $cmsBlockRepository;
 
+    protected $cmsBlockWidget;
+
     public function __construct(
         Block $block,
         string $blockIdentifier
